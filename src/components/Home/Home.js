@@ -17,7 +17,7 @@ const ThingsILove = () => (
   <Flex justify="space-between" align="center">
     <Card>
       <CardIcon>
-        <FontAwesomeIcon icon={["fab", "figma"]} />
+        <FontAwesomeIcon icon={["fab", "fa-figma"]} />
       </CardIcon>
       <CardTitle>Figma</CardTitle>
       <CardText>
@@ -27,7 +27,7 @@ const ThingsILove = () => (
 
     <Card>
       <CardIcon>
-        <FontAwesomeIcon icon={["fab", "invision"]} />
+        <FontAwesomeIcon icon={["fab", "fa-invision"]} />
       </CardIcon>
       <CardTitle>Invision</CardTitle>
       <CardText>
