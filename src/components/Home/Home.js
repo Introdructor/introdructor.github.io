@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { fab } from '@fortawesome/free-brands-svg-icons'
+import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro';
 import svgRect from '@src/static/home_rect.svg';
 
 import { HeroCard } from './HeroCard';
@@ -17,7 +17,7 @@ const ThingsILove = () => (
   <Flex justify="space-between" align="center">
     <Card>
       <CardIcon>
-        <FontAwesomeIcon icon={["fab", "figma"]} />
+        <FontAwesomeIcon icon={brands('figma')} />
       </CardIcon>
       <CardTitle>Figma</CardTitle>
       <CardText>
@@ -27,7 +27,7 @@ const ThingsILove = () => (
 
     <Card>
       <CardIcon>
-        <FontAwesomeIcon icon={["fab", "invision"]} />
+        <FontAwesomeIcon icon={brands('invision')} />
       </CardIcon>
       <CardTitle>Invision</CardTitle>
       <CardText>
