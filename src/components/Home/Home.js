@@ -1,6 +1,5 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro';
 import svgRect from '@src/static/home_rect.svg';
 
 import { HeroCard } from './HeroCard';
