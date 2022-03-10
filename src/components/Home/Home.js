@@ -16,33 +16,32 @@ const ThingsILove = () => (
   <Flex justify="space-between" align="center">
     <Card>
       <CardIcon>
-        <FontAwesomeIcon icon="code" />
+        <FontAwesomeIcon icon="fa-brands fa-figma" />
       </CardIcon>
-      <CardTitle>FrontEnd</CardTitle>
+      <CardTitle>Figma</CardTitle>
       <CardText>
-        I'm more front end focused and love to work with Reactjs as well as pure
-        HTML, CSS.
+        I love to design in figma and been using it since past 2 years.
       </CardText>
     </Card>
 
     <Card>
       <CardIcon>
-        <FontAwesomeIcon icon={['fab', 'js']} />
+        <FontAwesomeIcon icon="fa-brands fa-invision" />
       </CardIcon>
-      <CardTitle>Javascript</CardTitle>
+      <CardTitle>Invision</CardTitle>
       <CardText>
-        I just extremely love javascript, I can’t even express how much I love
-        javascript with just a few lines.
+        I just extremely love invision, I can’t even express how much I love
+        invision with just a few lines.
       </CardText>
     </Card>
 
     <Card>
       <CardIcon>
-        <FontAwesomeIcon icon="paint-brush" />
+        <FontAwesomeIcon icon="fa-brands fa-github-alt" />
       </CardIcon>
-      <CardTitle>Creative Coding</CardTitle>
+      <CardTitle>Github</CardTitle>
       <CardText>
-        I love creative coding because I do both coding & designing. making
+        I love to do a little coding because I do both coding & designing. making
         beautiful art with code is very satisfying to me.
       </CardText>
     </Card>
@@ -70,17 +69,17 @@ const Home = () => {
               <IconLink
                 label="github"
                 icon={['fab', 'github']}
-                href="//github.com/anuraghazra"
+                href="//github.com/introdructor"
               />
               <IconLink
                 label="twitter"
                 icon={['fab', 'twitter']}
-                href="//twitter.com/anuraghazru"
+                href="//twitter.com/introdructor"
               />
               <IconLink
-                label="codepen"
-                icon={['fab', 'codepen']}
-                href="//codepen.io/anuraghazra"
+                label="instagram"
+                icon={['fab', 'instagram']}
+                href="//instagram.com/introdructor"
               />
             </div>
           </div>
